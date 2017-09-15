@@ -1,0 +1,96 @@
+@font-face {
+    font-family: DINboldweb;
+    src: url("../fonts/DIN-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: DINregularweb;
+    src: url("../fonts/DIN-Regular.ttf") format("truetype");
+}
+
+body {
+  background-color: rgb(241, 241, 237);
+}
+
+#cs-container {
+  text-align: center; 
+}
+
+#cs-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+#cs-logo {
+  font-size: 43pt;
+  font-weight: bold;
+  margin-bottom: 32px;
+  margin-top: 103px;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+#cs-des {
+  font-family: DINboldweb;
+  font-weight: bold;
+  font-size: 31pt;
+}
+
+#cs-des span {
+  display: inline-block;
+}
+
+#cs-des span:last-child {
+  font-family: DINregularweb;
+  font-weight: normal; 
+  margin-top: 18px;
+}
+
+.cs-font-small {
+  font-size: 11pt;
+}
+
+.cs-font-color-grey {
+  color: #9c9c9c;
+}
+
+#cs-email-func div {
+  display: inline-block;
+  width: 180px;
+  border-bottom: 1px solid #9c9c9c;
+  margin-bottom: 25px;
+  padding-bottom: 6px;
+}
+
+#cs-email-func .fa {
+  font-size: 19pt;
+  color: #9c9c9c;
+}
+
+#cs-email-func input {
+  vertical-align: top;
+  border: none;
+  padding: 6px;
+  font-size: 10pt;
+  opacity: 0.5;
+  outline: none;
+  text-align: center;
+  background-color: transparent; 
+  font-family: DINregularweb;
+}
+
+#cs-button { 
+  font-family: DINboldweb;
+  font-size: 14pt;
+  text-align: center;
+}
+
+#cs-button span {
+  border: 1px solid #acacac;
+  padding: 5px 15px;
+  font-family: DINboldweb;
+  width: 200px;
+  cursor: pointer;
+}
+
+
